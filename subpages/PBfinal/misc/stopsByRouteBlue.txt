@@ -1,0 +1,232 @@
+{  
+   "direction":[  
+      {  
+         "direction_id":"0",
+         "direction_name":"Westbound",
+         "stop":[  
+            {  
+               "stop_order":"1",
+               "stop_id":"70060",
+               "stop_name":"Wonderland",
+               "parent_station":"place-wondl",
+               "parent_station_name":"Wonderland",
+               "stop_lat":"42.41342",
+               "stop_lon":"-70.991648"
+            },
+            {  
+               "stop_order":"10",
+               "stop_id":"70057",
+               "stop_name":"Revere Beach - Inbound",
+               "parent_station":"place-rbmnl",
+               "parent_station_name":"Revere Beach",
+               "stop_lat":"42.40784254",
+               "stop_lon":"-70.99253321"
+            },
+            {  
+               "stop_order":"20",
+               "stop_id":"70055",
+               "stop_name":"Beachmont - Inbound",
+               "parent_station":"place-bmmnl",
+               "parent_station_name":"Beachmont",
+               "stop_lat":"42.39754234",
+               "stop_lon":"-70.99231944"
+            },
+            {  
+               "stop_order":"30",
+               "stop_id":"70053",
+               "stop_name":"Suffolk Downs - Inbound",
+               "parent_station":"place-sdmnl",
+               "parent_station_name":"Suffolk Downs",
+               "stop_lat":"42.39050067",
+               "stop_lon":"-70.99712259"
+            },
+            {  
+               "stop_order":"40",
+               "stop_id":"70051",
+               "stop_name":"Orient Heights - Inbound",
+               "parent_station":"place-orhte",
+               "parent_station_name":"Orient Heights",
+               "stop_lat":"42.386867",
+               "stop_lon":"-71.004736"
+            },
+            {  
+               "stop_order":"50",
+               "stop_id":"70049",
+               "stop_name":"Wood Island - Inbound",
+               "parent_station":"place-wimnl",
+               "parent_station_name":"Wood Island",
+               "stop_lat":"42.3796403",
+               "stop_lon":"-71.02286539"
+            },
+            {  
+               "stop_order":"60",
+               "stop_id":"70047",
+               "stop_name":"Airport - Inbound",
+               "parent_station":"place-aport",
+               "parent_station_name":"Airport",
+               "stop_lat":"42.374262",
+               "stop_lon":"-71.030395"
+            },
+            {  
+               "stop_order":"70",
+               "stop_id":"70045",
+               "stop_name":"Maverick - Inbound",
+               "parent_station":"place-mvbcl",
+               "parent_station_name":"Maverick",
+               "stop_lat":"42.36911856",
+               "stop_lon":"-71.03952958"
+            },
+            {  
+               "stop_order":"80",
+               "stop_id":"70043",
+               "stop_name":"Aquarium - Inbound",
+               "parent_station":"place-aqucl",
+               "parent_station_name":"Aquarium",
+               "stop_lat":"42.359784",
+               "stop_lon":"-71.051652"
+            },
+            {  
+               "stop_order":"90",
+               "stop_id":"70041",
+               "stop_name":"State Street - to Bowdoin",
+               "parent_station":"place-state",
+               "parent_station_name":"State Street",
+               "stop_lat":"42.358978",
+               "stop_lon":"-71.057598"
+            },
+            {  
+               "stop_order":"100",
+               "stop_id":"70039",
+               "stop_name":"Government Center - to Bowdoin",
+               "parent_station":"place-gover",
+               "parent_station_name":"Government Center",
+               "stop_lat":"42.359705",
+               "stop_lon":"-71.059215"
+            },
+            {  
+               "stop_order":"110",
+               "stop_id":"70038",
+               "stop_name":"Bowdoin",
+               "parent_station":"place-bomnl",
+               "parent_station_name":"Bowdoin",
+               "stop_lat":"42.361365",
+               "stop_lon":"-71.062037"
+            }
+         ]
+      },
+      {  
+         "direction_id":"1",
+         "direction_name":"Eastbound",
+         "stop":[  
+            {  
+               "stop_order":"1",
+               "stop_id":"70038",
+               "stop_name":"Bowdoin",
+               "parent_station":"place-bomnl",
+               "parent_station_name":"Bowdoin",
+               "stop_lat":"42.361365",
+               "stop_lon":"-71.062037"
+            },
+            {  
+               "stop_order":"10",
+               "stop_id":"70040",
+               "stop_name":"Government Center - to Wonderland",
+               "parent_station":"place-gover",
+               "parent_station_name":"Government Center",
+               "stop_lat":"42.359705",
+               "stop_lon":"-71.059215"
+            },
+            {  
+               "stop_order":"20",
+               "stop_id":"70042",
+               "stop_name":"State Street - to Wonderland",
+               "parent_station":"place-state",
+               "parent_station_name":"State Street",
+               "stop_lat":"42.358978",
+               "stop_lon":"-71.057598"
+            },
+            {  
+               "stop_order":"30",
+               "stop_id":"70044",
+               "stop_name":"Aquarium - Outbound",
+               "parent_station":"place-aqucl",
+               "parent_station_name":"Aquarium",
+               "stop_lat":"42.359784",
+               "stop_lon":"-71.051652"
+            },
+            {  
+               "stop_order":"40",
+               "stop_id":"70046",
+               "stop_name":"Maverick - Outbound",
+               "parent_station":"place-mvbcl",
+               "parent_station_name":"Maverick",
+               "stop_lat":"42.36911856",
+               "stop_lon":"-71.03952958"
+            },
+            {  
+               "stop_order":"50",
+               "stop_id":"70048",
+               "stop_name":"Airport - Outbound",
+               "parent_station":"place-aport",
+               "parent_station_name":"Airport",
+               "stop_lat":"42.374262",
+               "stop_lon":"-71.030395"
+            },
+            {  
+               "stop_order":"60",
+               "stop_id":"70050",
+               "stop_name":"Wood Island - Outbound",
+               "parent_station":"place-wimnl",
+               "parent_station_name":"Wood Island",
+               "stop_lat":"42.3796403",
+               "stop_lon":"-71.02286539"
+            },
+            {  
+               "stop_order":"70",
+               "stop_id":"70052",
+               "stop_name":"Orient Heights - Outbound",
+               "parent_station":"place-orhte",
+               "parent_station_name":"Orient Heights",
+               "stop_lat":"42.386867",
+               "stop_lon":"-71.004736"
+            },
+            {  
+               "stop_order":"80",
+               "stop_id":"70054",
+               "stop_name":"Suffolk Downs - Outbound",
+               "parent_station":"place-sdmnl",
+               "parent_station_name":"Suffolk Downs",
+               "stop_lat":"42.39050067",
+               "stop_lon":"-70.99712259"
+            },
+            {  
+               "stop_order":"90",
+               "stop_id":"70056",
+               "stop_name":"Beachmont - Outbound",
+               "parent_station":"place-bmmnl",
+               "parent_station_name":"Beachmont",
+               "stop_lat":"42.39754234",
+               "stop_lon":"-70.99231944"
+            },
+            {  
+               "stop_order":"100",
+               "stop_id":"70058",
+               "stop_name":"Revere Beach - Outbound",
+               "parent_station":"place-rbmnl",
+               "parent_station_name":"Revere Beach",
+               "stop_lat":"42.40784254",
+               "stop_lon":"-70.99253321"
+            },
+            {  
+               "stop_order":"110",
+               "stop_id":"70060",
+               "stop_name":"Wonderland",
+               "parent_station":"place-wondl",
+               "parent_station_name":"Wonderland",
+               "stop_lat":"42.41342",
+               "stop_lon":"-70.991648"
+            }
+         ]
+      }
+   ]
+}
