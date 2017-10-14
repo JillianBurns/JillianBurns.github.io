@@ -1,13 +1,21 @@
 
 .jumbotron {
     text-align: center;
+    margin-top: 15px;
 }
 h1 {
     font-size: 4em;
 }
 nav * li {
     text-align: left;
+    padding: 0px;
+    margin: 0px;
+    line-height: em;
 }
 .container {
     max-width: 800px;
+}
+
+.nav > li > a {
+  padding: 15px 10px;
 }
