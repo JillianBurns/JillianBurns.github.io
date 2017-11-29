@@ -30,7 +30,21 @@ body {
     text-align: center;
     margin-top: 15px;
     background: var(--accent-color);
-    /*background:
+    box-shadow: 
+        inset 10px -185px var(--color-blue),
+        inset -160px -185px var(--color-yellow),
+        inset -320px -185px var(--color-orange),
+        inset -480px -185px var(--color-red),
+        inset -640px -185px var(--color-gray),
+
+        inset 10px 10px var(--color-blue),
+        inset -160px 10px var(--color-yellow),
+        inset -320px 10px var(--color-orange),
+        inset -480px 10px var(--color-red),
+        inset -640px 10px var(--color-gray);
+        
+    /* Polka dot bg
+    background:
         -moz-radial-gradient(var(--polka-dots) 15%, transparent 16%),
         -moz-radial-gradient(var(--polka-dots) 15%, transparent 16%),
         var(--polka-bg, #fff);
@@ -42,7 +56,8 @@ body {
     
     -webkit-background-size: var(--polka-sizex2) var(--polka-sizex2);
     -moz-background-size: var(--polka-sizex2) var(--polka-sizex2);
-    background-size: var(--polka-sizex2) var(--polka-sizex2);*/
+    background-size: var(--polka-sizex2) var(--polka-sizex2);
+    */
 }
 
 h1 {
@@ -51,56 +66,26 @@ h1 {
 h3 {
     color: var(--accent-color);
 }
-/*
-.hover3{
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 4px;
-  display: inline-block;
-}
-
-.hover3:after{
-  content: "";
-  display: block;
-  width: 100%;
-  height: 2px;
-
-  position: absolute;
-  left: 0;
-  bottom: 0;
-
-  transform: translate3d(-100%, 0, 0);
-  transition: transform .2s ease-in;
-}
-
-.hover3:hover:after,
-.hover3:focus:after{
-  transform: translate3d(0, 0, 0);
-}
-*/
 
 nav, .navbar, .navbar .container-fluid {
     background: var(--background-color);
     border-color: var(--background-color);
     padding: 0px;
     padding-right: 0px;
+    font-weight: bold;
 }
 
 .navbar-default .navbar-nav > li > a {
     background: var(--nav-color);
     color: var(--accent-color);
     padding: 9px 7px 11px 5px;
-    
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 6px;
+    margin-bottom: 6px;
     text-transform: uppercase;
     border-radius: 4px;
     -moz-box-shadow: inset -2px -2px #C44747;
     -webkit-box-shadow: inset -2px -2px #C44747;
     box-shadow: inset -2px -2px #C44747;
-    /*border-width: 0px 1px 0px 0px;
-    border-style: double;
-    border-color: var(--text-color);*/
 }
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover
@@ -124,7 +109,6 @@ nav, .navbar, .navbar .container-fluid {
     color: var(--accent-color);
     background-color: #C44747;
     padding: 10px 6px;
-    /*box-shadow: inset 2px 2px #9E3939;*/
 }
 
 .navbar-default .navbar-nav > li:first-child.active > a {
