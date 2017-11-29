@@ -89,7 +89,8 @@ nav, .navbar, .navbar .container-fluid {
 .navbar-default .navbar-nav > li > a {
     background: var(--nav-color);
     color: var(--accent-color);
-    padding: 10px 6px;
+    padding: 9px 7px 11px 5px;
+    
     margin-right: 10px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -105,10 +106,9 @@ nav, .navbar, .navbar .container-fluid {
 .navbar-default .navbar-nav > li > a:hover
  {
     background: var(--nav-color);
-    color: var(--text-color);
-    -moz-box-shadow: inset -2px -2px #C44747;
-    -webkit-box-shadow: inset -2px -2px #C44747;
-    box-shadow: inset -2px -2px #C44747;
+    color: var(--accent-color);
+    box-shadow: none;
+    padding: 10px 6px;
 }
 .navbar-default .navbar-nav > li:last-child > a {
     border-width: 0px;
@@ -123,6 +123,7 @@ nav, .navbar, .navbar .container-fluid {
 .navbar-default .navbar-nav > .active > a:hover {
     color: var(--accent-color);
     background-color: #C44747;
+    padding: 10px 6px;
     /*box-shadow: inset 2px 2px #9E3939;*/
 }
 
