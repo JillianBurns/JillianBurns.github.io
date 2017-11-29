@@ -108,7 +108,7 @@ nav, .navbar, .navbar .container-fluid {
     background: var(--nav-color);
     color: var(--accent-color);
     box-shadow: none;
-    padding: 10px 6px;
+    padding: 11px 5px 9px 7px;
 }
 .navbar-default .navbar-nav > li:last-child > a {
     border-width: 0px;
