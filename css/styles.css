@@ -38,13 +38,13 @@ body {
         inset -160px -185px var(--color-yellow),
         inset -320px -185px var(--color-orange),
         inset -480px -185px var(--color-red),
-        inset -640px -185px var(--color-gray),
-
+        inset -640px -185px var(--color-gray);
+/*
         inset 10px 10px var(--color-blue),
         inset -160px 10px var(--color-yellow),
         inset -320px 10px var(--color-orange),
         inset -480px 10px var(--color-red),
-        inset -640px 10px var(--color-gray);
+        inset -640px 10px var(--color-gray);*/
         
     /* Polka dot bg
     background:
