@@ -4,6 +4,9 @@
   --polka-size: 50px;
   --polka-sizex2: calc(var(--polka-size) * 2);
 
+  --btn-height: 2px;
+  --btn-height-neg: calc(-1 * var(--btn-height));
+
   --color-gray: #5C4B51; /*dark gray-purple*/
   --color-yellow: #F2EBBF; /*yellow*/
   --color-orange: #F3B562; /*orange*/
@@ -78,14 +81,18 @@ nav, .navbar, .navbar .container-fluid {
 .navbar-default .navbar-nav > li > a {
     background: var(--nav-color);
     color: var(--accent-color);
-    padding: 9px 7px 11px 5px;
+    padding:
+        calc(11px + var(--btn-height-neg))
+        7px 
+        11px
+        calc(7px + var(--btn-height-neg));
     margin-right: 6px;
     margin-bottom: 6px;
     text-transform: uppercase;
     border-radius: 4px;
-    -moz-box-shadow: inset -2px -2px #C44747;
-    -webkit-box-shadow: inset -2px -2px #C44747;
-    box-shadow: inset -2px -2px #C44747;
+    -moz-box-shadow: inset var(--btn-height-neg) var(--btn-height-neg) #C44747;
+    -webkit-box-shadow: inset var(--btn-height-neg) var(--btn-height-neg) #C44747;
+    box-shadow: inset var(--btn-height-neg) var(--btn-height-neg) #C44747;
 }
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover
@@ -93,7 +100,11 @@ nav, .navbar, .navbar .container-fluid {
     background: var(--nav-color);
     color: var(--accent-color);
     box-shadow: none;
-    padding: 11px 5px 9px 7px;
+    padding:
+        11px
+        calc(7px + var(--btn-height-neg))
+        calc(11px + var(--btn-height-neg))
+        7px;
 }
 .navbar-default .navbar-nav > li:last-child > a {
     border-width: 0px;
