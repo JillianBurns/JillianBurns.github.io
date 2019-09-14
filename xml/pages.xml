@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UtF-8" ?>
+<page_menu>
+    <page>
+        <page_url>index.html</page_url>
+        <page_title>Home</page_title>
+    </page>
+    <page>
+        <page_url>websites.html</page_url>
+        <page_title>Websites</page_title>
+    </page>
+    <page>
+        <page_url>graphic-design.html</page_url>
+        <page_title>Graphic Design</page_title>
+    </page>
+    <page>
+        <page_url>other-projects.html</page_url>
+        <page_title>Other Projects</page_title>
+    </page>
+    <page>
+        <page_url>ongoing-projects.html</page_url>
+        <page_title>Ongoing Projects</page_title>
+    </page>
+    <page>
+        <page_url>about.html</page_url>
+        <page_title>about</page_title>
+    </page>
+    <page>
+        <page_url>contact.html</page_url>
+        <page_title>Contact</page_title>
+    </page>
+</page_menu>
